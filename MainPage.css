@@ -5,11 +5,11 @@ body{
 header{
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     width: 100%;
-    display: flex;
+    display: inline-flex;
     background-color: rgb(214, 212, 212);
     height: 15vh;
+    top: 0px;
 }
 header ul li{
     display: inline;
@@ -25,4 +25,8 @@ header ul li{
 header ul li:hover{
     background-color: rgb(154, 147, 147);
     transition: background-color 0.3s ease-in;
+}
+header a{
+    text-decoration: none;
+    color: inherit;
 }
