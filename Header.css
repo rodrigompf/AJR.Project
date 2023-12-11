@@ -10,6 +10,7 @@ header{
     background-repeat: no-repeat;
     background-position: 200px 15px;
     color: #68BAA6;
+    position: fixed;
 }
 header ul li{
     display: inline;
