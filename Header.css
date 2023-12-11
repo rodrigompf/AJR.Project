@@ -1,0 +1,36 @@
+header{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: inline-flex;
+    background-color: #494454;
+    height: 12vh;
+    top: 0px;
+    background-image: url(./Imagens/logo_projeto_final.png);
+    background-repeat: no-repeat;
+    background-position: 200px 15px;
+    color: #68BAA6;
+}
+header ul li{
+    display: inline;
+    font-size: 17px;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 3px;
+    transition: background-color 0.3s ease-in;
+}
+header ul li:hover{
+    background-color: #AEA8BA;
+    transition: background-color 0.3s ease-in;
+}
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+header h2{
+    padding-left: 325px;
+    color: #68BAA6;
+}
