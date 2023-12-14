@@ -3,14 +3,13 @@ header{
     align-items: center;
     width: 100%;
     display: inline-flex;
-    background-color: #494454;
+    background-color: black;
     height: 12vh;
     top: 0px;
     background-image: url(./Imagens/logo_projeto_final.png);
     background-repeat: no-repeat;
     background-position: 200px 15px;
     color: #68BAA6;
-    position: fixed;
 }
 header ul li{
     display: inline;

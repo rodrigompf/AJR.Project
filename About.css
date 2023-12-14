@@ -2,3 +2,16 @@ body{
     margin: 0px;
     top: 0px;
 }
+
+.section1{
+    background-image: url(./Imagens/project-4-1.png);
+    width: 100%;
+    height:30vh;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+}
+
+.section1 h1{
+    
+}
+
