@@ -4,14 +4,33 @@ body{
 }
 
 .section1{
-    background-image: url(./Imagens/project-4-1.png);
+    background-image: url(./Imagens/photo-1591955506264-3f5a6834570a.avif);
     width: 100%;
-    height:30vh;
+    height:50vh;
     padding-top: 100px;
     background-repeat: no-repeat;
+    background-size: 100% 450px;
+    
 }
 
 .section1 h1{
-    
+    color: black;
+    font-size: 60px;
+    padding-top: 90px;
+    padding-left: 23%;
 }
+
+.section2div1{
+    display: flex;
+    flex: 1.0;
+}
+.section2div1 img{
+    width: 450px;
+    height: 550px;
+    padding-top: 80px;
+    padding-left: 140px;
+}
+
+
+
 
