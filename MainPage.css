@@ -76,39 +76,3 @@ body{
     width: 150px;
     height: auto;
 }
-footer{
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    height: 425px;
-    padding: 10px;
-    align-items: center;
-    line-height: 2;
-    text-align: left;
-    border-top:3px solid rgb(160, 25, 25);
-}
-#footer_p{
-    display: flex;
-    justify-content: space-between;
-}
-#footer_container{
-    display: flex;
-    justify-content: space-between; /* Distribute space between items */
-    list-style: none; /* Remove default list styles */
-    padding: 0;
-}
-#footer_container li{
-    flex: 1;
-    padding: 25px;
-    text-align: left;
-    box-sizing: border-box;
-    
-}
-/*geral usage*/
-#right{
-    padding: 10px;
-}
-#left{
-    padding: 10px;
-
-}
