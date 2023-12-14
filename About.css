@@ -19,17 +19,19 @@ body{
     padding-top: 90px;
     padding-left: 23%;
 }
-
-.section2div1{
-    display: flex;
-    flex: 1.0;
-}
-.section2div1 img{
+.section2div1 {
     width: 450px;
     height: 550px;
     padding-top: 80px;
     padding-left: 140px;
 }
+.section2div2 {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
 
 
 
