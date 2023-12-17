@@ -16,6 +16,7 @@ body{
     justify-content: center;
     align-items: left;
     transition: background-color 0.3s ease-in;
+    margin-top: -90px;
 }
 .Apresentation a:hover{
     background-color: #AEA8BA;
@@ -38,41 +39,25 @@ body{
 
 
 .explaining {
-    background-color: #fff;
+    background-color: #b16565;
     padding: 2rem;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.text{
+    padding-left: 10%;
+    max-width: 50%;
+    line-height: 400%;
+}
+.explaining img{
+    height: 30%;
+    width: 30%;
+    margin-right: 10%;
+    margin-top: 3%;
+    border: 5px orangered solid;
+}
+/* Geral usage*/
+.container {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-}
-
-.text-section {
-    flex: 1;
-    padding-right: 2rem;
-}
-
-.title {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-.subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.content {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
-
-.phone {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.concrete-image {
-    width: 150px;
-    height: auto;
 }
