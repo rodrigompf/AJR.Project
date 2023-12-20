@@ -19,7 +19,7 @@ body{
     margin-top: -90px;
 }
 .Apresentation a:hover{
-    background-color: #AEA8BA;
+    background-color: #57555aa8;
     transition: background-color 0.3s ease-in;
 }
 .Apresentation h1{
@@ -43,21 +43,69 @@ body{
     padding: 2rem;
 
 }
+.explaining h1{
+    font-size: 25px;
+}
+.explaining h2,h3 {
+    font-size: 20px;
+}
 .text{
     padding-left: 10%;
     max-width: 50%;
-    line-height: 400%;
+    line-height: 200%;
+    max-width: 30%
 }
 .explaining img{
     height: 30%;
     width: 30%;
     margin-right: 10%;
-    margin-top: 3%;
-    border: 5px orangered solid;
+    border: 5px solid orange;
+    padding: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 20%;
 }
 /* Geral usage*/
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.getit{
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    height: 15%;
+    padding: 1rem;
+}
+
+.exemple{
+    background-color: #b16565;
+    padding: 2rem;
+    text-align: center;
+    padding-right: 5%;
+}
+.exemple_img{
+    height: 30%;
+    width: 30%;
+    margin-left: 5%;
+    border: 5px solid orange;
+    padding: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.exemple ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+  }
+.ul_img{
+    height: 10%;
+    width: 10%;
+
 }
