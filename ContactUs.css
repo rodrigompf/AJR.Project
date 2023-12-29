@@ -2,3 +2,42 @@ body{
     margin: 0px;
     top: 0px;
 }
+
+.section1{
+    background-image: url(./Imagens/contact\ us.webp);
+    width: 100%;
+    height:42vh;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+}
+.section1 h1{
+    color: black;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-left: 19%;
+}
+
+
+
+
+
+
+
+
+
+
+.section2div1{
+    padding-left: 9%;
+    background-color: white;
+    padding-top: 70px;
+}
+.section2ul{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 0.18fr);
+    gap: 5px; 
+    padding-left: 9%;
+    padding-top: 5%;
+    list-style: none;
+}
