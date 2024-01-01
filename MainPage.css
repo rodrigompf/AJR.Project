@@ -115,19 +115,22 @@ body{
 .Clients {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
     margin: 0 auto;
     max-width: 850px;
     background-color: rosybrown;
+    border: solid 2px red;
   }
   .clients-item {
     flex: 1 0 calc(30% - 25px);
     display: flex;
     gap: 0px;
+    border: solid 1px red;
   }
   #client_img{
     height: 200px;
     width: 200px;
+    border: solid 1px red;
   }
   .image-text {
     flex: 1;
@@ -147,6 +150,53 @@ body{
 .client_background{
     background-color: aquamarine;
 }
+.business{
+    background-color: aquamarine;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.image-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    max-width: 80%;
+  }
+  .image-list li {
+    flex: 0.9; /* Each image takes up equal space */
+    margin: 1%;
+  }
+  
+  .image-list img {
+    width: 100%; /* Image takes up full width of the list item */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .container2 {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    text-align: center;
+  }
+.text_businees{
+    text-align: center;
 
-
+}
+.numbers{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;
+}
+.numbers li{
+    flex: 1;
+    margin-left: 75%;
+    text-align: center;
+}
+.numbers h3{
+    font-size: 125%;
+}
+.numberscontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
 
