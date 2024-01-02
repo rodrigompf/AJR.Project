@@ -1,6 +1,7 @@
 header{
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
     width: 100%;
     display: inline-flex;
     background-color: rgba(0, 0, 0, 0.438);
@@ -8,7 +9,7 @@ header{
     top: 0px;
     background-image: url(./Imagens/logo_projeto_final.png);
     background-repeat: no-repeat;
-    background-position: 200px 15px;
+    background-position: 16% 50%;
     color: #68BAA6;
 }
 header ul li{
@@ -18,7 +19,7 @@ header ul li{
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    padding: 10px;
+    padding: 5px;
     margin: 3px;
     transition: background-color 0.3s ease-in;
 }
@@ -31,6 +32,6 @@ header a{
     color: inherit;
 }
 header h2{
-    padding-left: 325px;
+    padding-left: 25%;
     color: #68BAA6;
 }
