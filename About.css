@@ -4,7 +4,7 @@ body{
 }
 
 .section1{
-    background-image: url(./Imagens/photo-1591955506264-3f5a6834570a.avif);
+    background-image: url(./Imagens/about\ us\ main.jpg);
     width: 100%;
     height:50vh;
     padding-top: 100px;
@@ -15,7 +15,7 @@ body{
 .section1 h1{
     color: black;
     font-size: 60px;
-    padding-top: 90px;
+    padding-top: 30px;
     padding-left: 23%;
 }
 
