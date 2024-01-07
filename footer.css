@@ -33,6 +33,14 @@ footer{
 
 }
 
+#iconimg{
+    margin-right: 5%;
+    height: 6%;
+    width: 6%;
+}
+#space{
+    margin-right: 10%;
+}
 a:link{
     text-decoration: none;
 }
