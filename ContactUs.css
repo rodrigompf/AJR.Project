@@ -10,6 +10,8 @@ body{
     padding-top: 100px;
     background-repeat: no-repeat;
     background-size: 100% 450px;
+    transition: background-color 0.3s ease-in;
+     margin-top: -90px;
 }
 .section1 h1{
     color: black;
