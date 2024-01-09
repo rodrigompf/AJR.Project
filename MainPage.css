@@ -7,7 +7,6 @@ body{
     align-items: left   ;
     width: 100%;
     height: 110vh;
-    padding-top: 1px;
     background-image: url(./Imagens/first\ wallpaper.jpg);
     background-size: 100% 111vh;
     background-repeat: no-repeat;
@@ -17,7 +16,7 @@ body{
     justify-content: center;
     align-items: left;
     transition: background-color 0.3s ease-in;
-    margin-top: -90px;
+    margin-top: -100px;
 }
 .Apresentation a:hover{
     background-color: #57555aa8;
@@ -40,7 +39,7 @@ body{
 
 
 .explaining {
-    background-color: #b16565;
+    background-color: #ffffffb9;
     padding: 2rem;
 
 }
@@ -63,7 +62,7 @@ body{
     height: 30%;
     width: 30%;
     margin-right: 10%;
-    border: 5px solid orange;
+    border: 5px solid #0078DD;
     padding: 0px;
     border-top: 0px;
     border-left: 0px;
@@ -79,7 +78,7 @@ body{
 
 .getit{
     text-align: center;
-    background-color: aqua;
+    background-color: #82AFE1   ;
     width: 100%;
     height: 15%;
     padding-top: 1rem;
@@ -87,7 +86,7 @@ body{
 }
 
 .exemple{
-    background-color: #b16565;
+    background-color: #ffffffc5;
     padding: 2rem;
     text-align: center;
     padding-right: 5%;
@@ -96,7 +95,7 @@ body{
     height: 30%;
     width: 30%;
     margin-left: 5%;
-    border: 5px solid orange;
+    border: 5px solid #0078DD;
     padding: 0px;
     border-top: 0px;
     border-right: 0px;
@@ -119,20 +118,20 @@ body{
     flex-direction: column;
     margin: 0 auto;
     max-width: 60%;
-    background-color: rosybrown;
-    border: solid 2px red;
+    background-color: #ffffff          ;
+    border: solid 2px #4E8074 ;
 
   }
   .clients-item {
     flex: 1 0 calc(30% - 25px);
     display: flex;
     gap: 0px;
-    border: solid 1px red;
+    border: solid 1px #4E8074 ;
   }
   #client_img{
     height: 22%;
     width: 22%;
-    border: solid 1px red;
+    border: solid 1px #4E8074 ;
   }
   .image-text {
     flex: 1;
@@ -150,10 +149,10 @@ body{
     padding-bottom: 1%;
   }
 .client_background{
-    background-color: aquamarine;
+    background-color: #C6FCED;
 }
 .business{
-    background-color: aquamarine;
+    background-color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
     max-width: 100%;
@@ -165,17 +164,17 @@ body{
     max-width: 80%;
   }
   .image-list li {
-    flex: 0.9; /* Each image takes up equal space */
+    flex: 0.9;
     margin: 1%;
   }
   
   .image-list img {
-    width: 100%; /* Image takes up full width of the list item */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
   }
   .container2 {
     display: flex;
-    justify-content: center; /* Center content horizontally */
+    justify-content: center;
     text-align: center;
   }
 .text_businees{
@@ -207,27 +206,12 @@ body{
     justify-content: center; 
     margin-top: 2%;
 }
-
-/*<div class="numberscontainer">
-        <ul class="numbers">
-            <li>
-                <h1>87654</h1>
-                <h3>clients</h3>
-            </li>
-
-            <li>
-                <h1>44646</h1>
-                <h3>projects</h3>
-            </li>
-
-            <li>
-                <h1>3535646</h1>
-                <h3>repairing</h3>
-            </li>
-
-            <li>
-                <h1>464535</h1>
-                <h3>awards</h3>
-            </li>
-        </ul>
-    </div>*/
+@media only screen and (max-width: 768px) {
+    .gallery-item {
+      flex: 1 0 100%;
+    }
+    
+    .image-text {
+      padding: 0;
+    }
+  }
