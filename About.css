@@ -106,5 +106,13 @@ body{
     gap: 10px; 
     list-style: none;
 }
-
+@media only screen and (max-width: 768px) {
+    .gallery-item {
+      flex: 1 0 100%;
+    }
+    
+    .image-text {
+      padding: 0;
+    }
+  }
 
