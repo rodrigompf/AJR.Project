@@ -35,11 +35,8 @@ header h2{
     color: #8fffe3;
 }
 @media only screen and (max-width: 768px) {
-    .gallery-item {
+header {
       flex: 1 0 100%;
-    }
-    
-    .image-text {
       padding: 0;
-    }
-  }
+}
+}
