@@ -1,20 +1,21 @@
-body{
+body {
     margin: 0px;
     top: 0px;
     font-family: monospace, monospace;
 }
 
-.section1{
+.section1 {
     background-image: url(./Imagens/about\ us\ main.jpg);
     width: 100%;
-    height:55vh;
+    height: 55vh;
     padding-top: 100px;
     background-repeat: no-repeat;
     background-size: 100% 450px;
     transition: background-color 0.3s ease-in;
     margin-top: -100px;
 }
-.section1 h1{
+
+.section1 h1 {
     color: black;
     font-size: 60px;
     padding-top: 30px;
@@ -35,22 +36,24 @@ body{
     padding-top: 80px;
     padding-left: 140px;
 }
+
 .section2div2 {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: left; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
     padding-left: 60%;
     margin-top: -500px;
     background-color: white;
     height: 600px;
-    
+
 }
-.section2ul{
+
+.section2ul {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px; 
+    gap: 10px;
     padding-left: 60%;
     list-style: none;
 }
@@ -65,21 +68,22 @@ body{
 
 
 
-.section3{
-    display: flex; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: left; 
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
     padding-top: 70px;
     background-color: rgb(162, 162, 223);
     height: 570px;
     padding-left: 7%;
 }
-.section3ul{
+
+.section3ul {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px; 
+    gap: 10px;
     list-style: none;
 }
 
@@ -90,30 +94,31 @@ body{
 
 
 
-.section4{
-    display: flex; 
-    flex-direction: column; 
-    justify-content: flex-start; 
+.section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: left;
     background-color: white;
     height: 500px;
     padding-left: 15%;
     padding-top: 70px;
 }
-.section4ul{
+
+.section4ul {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px; 
+    gap: 10px;
     list-style: none;
 }
+
 @media only screen and (max-width: 768px) {
     .gallery-item {
-      flex: 1 0 100%;
+        flex: 1 0 100%;
     }
-    
-    .image-text {
-      padding: 0;
-    }
-  }
 
+    .image-text {
+        padding: 0;
+    }
+}
