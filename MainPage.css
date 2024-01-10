@@ -2,13 +2,14 @@ body{
     margin: 0px;
     top: 0px;
     max-width: 100%;
+    font-family: monospace, monospace;
 }
 .Apresentation{
     align-items: left   ;
     width: 100%;
-    height: 110vh;
+    height: 102vh;
     background-image: url(./Imagens/first\ wallpaper.jpg);
-    background-size: 100% 111vh;
+    background-size: 100% 102.5vh;
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
     display: flex;

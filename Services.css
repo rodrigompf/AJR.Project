@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     top: 0px;
+    font-family: monospace, monospace;
 }
 
 .section1{
@@ -67,7 +68,7 @@ h2 + p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 50vh; 
   }
   .center-section-2 {
     display: flex;

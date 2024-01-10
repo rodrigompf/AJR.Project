@@ -6,7 +6,7 @@ header{
     display: inline-flex;
     background-color: rgba(0, 0, 0, 0.651);
     height: 12vh;
-    background-image: url(./Imagens/logo_projeto_final.png);
+    background-image: url(./Imagens/logo\ projeto\ final.png);
     background-repeat: no-repeat;
     background-position: 16% 50%;
     color: #8fffe3;
