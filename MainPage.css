@@ -2,7 +2,23 @@ body {
   margin: 0px;
   top: 0px;
   max-width: 100%;
-  font-family: monospace, monospace;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 125%;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 111%;
+}
+p, h3, h4, h5, h6, a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+
 }
 
 .Apresentation {
@@ -19,21 +35,14 @@ body {
   align-items: left;
   transition: background-color 0.3s ease-in;
   margin-top: -100px;
+  
 }
-
+.Apresentation h1,.Apresentation h2, .Apresentation p{
+  padding-left: 10%;
+}
 .Apresentation a:hover {
   background-color: #57555aa8;
   transition: background-color 0.3s ease-in;
-}
-
-.Apresentation h1 {
-  padding-left: 50px;
-  font-size: 30px;
-}
-
-.Apresentation p {
-  padding-left: 50px;
-  font-size: 20px;
 }
 
 .Apresentation a {
@@ -47,27 +56,19 @@ body {
 .explaining {
   background-color: #2b5063;
   padding: 2rem;
-  color: #8fffe3;
 }
 
 .explaining h1 {
-  font-size: 180%;
 }
 
-.explaining h2,
-h3 {
-  font-size: 125%;
+.explaining p,.explaining h2, .explaining h3, .explaining h4, .explaining h5, .explaining h6, .explaining a{
 }
 
-.explaining p {
-  font-size: 110%;
-}
 
 .text {
-  padding-left: 10%;
   max-width: 50%;
   line-height: 200%;
-  max-width: 30%
+  padding-left: 5%;
 }
 
 .explaining img {
@@ -92,11 +93,16 @@ h3 {
 .getit {
   text-align: center;
   background-color: #020d19;
-  color: rgb(202, 195, 195);
+
   width: 100%;
   height: 15%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.getit h1,h2 {
+}
+
+.getit p, h3, h4, h5, h6, a{
 }
 
 .exemple {
@@ -104,7 +110,6 @@ h3 {
   padding: 2rem;
   text-align: center;
   padding-right: 5%;
-  color: #8fffe3;
 }
 
 .exemple_img {
@@ -126,7 +131,11 @@ h3 {
   gap: 5%;
   padding-left: 5%;
 }
+.exemple h1,h2 {
+}
 
+.exemple p, h3, h4, h5, h6, a{
+}
 .ul_img {
   height: 10%;
   width: 10%;
@@ -136,24 +145,22 @@ h3 {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 90%;
-  background-color: #2b5063;
-  border: solid 2px #020d19;
-  color: #8fffe3;
+  max-width: 80%;
+  background-color: #020d19b4;
 }
 
 .clients-item {
   flex: 1 0 calc(30% - 25px);
   display: flex;
   gap: 0px;
-  border: solid 1px #020d19;
+
   align-items: center;
 }
 
 #client_img {
   height: 22%;
   width: 22%;
-  border: solid 1px #020d19;
+
 }
 
 .image-text {
@@ -173,9 +180,14 @@ h3 {
   padding-top: 1%;
   padding-bottom: 1%;
 }
+.Clients h1,h2 {
+}
 
+.Clients p, h3, h4, h5, h6, a{
+}
 .client_background {
-  background-color: #020d19;
+  background-image: url(./Imagens/first\ wallpaper.jpg);
+  background-repeat: no-repeat;
 }
 
 .business {
@@ -183,9 +195,14 @@ h3 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   max-width: 100%;
-  color: #8fffe3;
+}
+.business h1,h2 {
+
 }
 
+.business p, h3, h4, h5, h6, a{
+
+}
 .image-list {
   list-style: none;
   padding: 0;
@@ -228,12 +245,10 @@ h3 {
 }
 
 .numbers h1 {
-  font-size: 150%;
   margin: 1% 0;
 }
 
 .numbers h3 {
-  font-size: 125%;
   margin: 1% 0;
 }
 
