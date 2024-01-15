@@ -14,7 +14,6 @@ header {
 
 header ul li {
     display: inline;
-    font-size: 20px;
     position: relative;
     border: none;
     cursor: pointer;

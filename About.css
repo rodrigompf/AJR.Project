@@ -1,23 +1,24 @@
 body {
     margin: 0px;
     top: 0px;
-}
-h1 {
+    max-width: 100%;
+  }
+  h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    font-size: 150%;
   }
   h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    font-size: 125%;
   }
   h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    font-size: 111%;
   }
   p, h3, h4, h5, h6, a{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
   
-
   }
 
   .section3 a{
@@ -30,6 +31,7 @@ h1 {
     width: 100%;
     height: 55vh;
     padding-top: 100px;
+    font-size: 220%;
     background-repeat: no-repeat;
     background-size: 100% 450px;
     transition: background-color 0.3s ease-in;
@@ -38,56 +40,47 @@ h1 {
 
 .section1 h1 {
     color: black;
-    font-size: 60px;
     padding-top: 30px;
     padding-left: 20%;
 }
-
-
-
-
-
-
-
-
-
-.section2div1 {
-    width: 450px;
-    height: 550px;
-    padding-top: 80px;
-    padding-left: 140px;
-}
-
-.section2div2 {
+.container {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: left;
-    padding-left: 60%;
-    margin-top: -500px;
-    background-color: white;
-    height: 600px;
-
-}
-
-.section2ul {
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.exemple {
+    background-color: #2b5063;
+    padding: 2rem;
+    text-align: center;
+    padding-right: 5%;
+  }
+  .exemple_text{
+    padding-right: 10%;
+  }
+  .exemple_img {
+    height: 30%;
+    width: 30%;
+    margin-left: 5%;
+    border: 10px solid #8fffe3;
+    padding: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .exemple ul {
+    list-style: none;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    padding-left: 60%;
-    list-style: none;
-}
-
-
-
-
-
-
-
-
-
-
+    gap: 5%;
+  }
+  .exemple h1,h2 {
+  }
+  
+  .exemple p, h3, h4, h5, h6, a{
+  }
 
 .section3 {
     display: flex;
@@ -107,32 +100,46 @@ h1 {
     gap: 10px;
     list-style: none;
 }
-
-
-
-
-
-
-
-
-.section4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: left;
-    background-color: white;
-    height: 500px;
-    padding-left: 15%;
-    padding-top: 70px;
-}
-
-.section4ul {
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+.business {
+    background-color: #2b5063;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 100%;
+  }
+  .business h1,h2 {
+  
+  }
+  
+  .business p, h3, h4, h5, h6, a{
+  
+  }
+  .image-list {
     list-style: none;
-}
+    padding: 0;
+    display: flex;
+    max-width: 80%;
+  }
+  
+  .image-list li {
+    flex: 0.9;
+    margin: 1%;
+  }
+  
+  .image-list img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .text_businees {
+    text-align: center;
+  
+  }
 
 @media only screen and (max-width: 768px) {
     .gallery-item {

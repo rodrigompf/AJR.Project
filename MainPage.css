@@ -41,7 +41,7 @@ p, h3, h4, h5, h6, a{
   padding-left: 10%;
 }
 .Apresentation a:hover {
-  background-color: #57555aa8;
+  background-color: #2b5063;
   transition: background-color 0.3s ease-in;
 }
 
@@ -50,6 +50,7 @@ p, h3, h4, h5, h6, a{
   color: inherit;
   padding: 3px;
   border-radius: 5px;
+  background-color: #3e3f3f;
 }
 
 
@@ -92,7 +93,7 @@ p, h3, h4, h5, h6, a{
 
 .getit {
   text-align: center;
-  background-color: #020d19;
+  background-color: #627181;
 
   width: 100%;
   height: 15%;
@@ -102,7 +103,10 @@ p, h3, h4, h5, h6, a{
 .getit h1,h2 {
 }
 
-.getit p, h3, h4, h5, h6, a{
+.getit p, h3, h4, h5, h6{
+}
+.getit a{
+  color: inherit;
 }
 
 .exemple {
