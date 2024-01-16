@@ -11,11 +11,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 125%;
   }
-  h3{
+  h3,h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 111%;
   }
-  p, h3, h4, h5, h6, a{
+  p, h5, h6, a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
   
@@ -59,8 +59,8 @@ body {
     padding-right: 10%;
   }
   .exemple_img {
-    height: 30%;
-    width: 30%;
+    height: 40%;
+    width: 40%;
     margin-left: 5%;
     border: 10px solid #8fffe3;
     padding: 0px;
@@ -68,18 +68,19 @@ body {
     border-right: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
+  .exemple h1,h2 {
+    color: #8fffe3;
+  }
   
+  .exemple p, h5, h6, a{
+    color: rgb(223, 208, 208)
+  }
   .exemple ul {
     list-style: none;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5%;
-  }
-  .exemple h1,h2 {
-  }
-  
-  .exemple p, h3, h4, h5, h6, a{
   }
 
 .section3 {
@@ -88,17 +89,20 @@ body {
     justify-content: flex-start;
     align-items: left;
     padding-top: 70px;
-    background-color: rgb(162, 162, 223);
+    background-color: #9aa5a3;
     height: 570px;
     padding-left: 7%;
 }
 
-.section3ul {
+.section3 ul {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     list-style: none;
+}
+.section3 h1,h2,h4{
+  color: #2b5063;
 }
 .business {
     background-color: #2b5063;
@@ -107,11 +111,11 @@ body {
     max-width: 100%;
   }
   .business h1,h2 {
-  
+    color: #8fffe3;
   }
   
-  .business p, h3, h4, h5, h6, a{
-  
+  .business p, h3, h5, h6, a{
+    color: rgb(223, 208, 208)
   }
   .image-list {
     list-style: none;
