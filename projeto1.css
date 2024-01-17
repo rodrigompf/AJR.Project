@@ -3,6 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #c9c9c9;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;
+  color: #2b5063;
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 125%;
+  color: #2b5063;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 111%;
+  color: #2b5063;
+}
+p, h3, h4, h5, h6, a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+
+}
 
 .gallery {
   display: grid;
@@ -97,8 +120,8 @@
 }
 
 .show-more-btn {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #2b5063;
+  color: #8fffe3;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -112,27 +135,4 @@
   .image-text {
     padding: 0;
   }
-}
-
-body {
-  margin: 0px;
-  top: 0px;
-  max-width: 100%;
-}
-h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 150%;
-}
-h2{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 125%;
-}
-h3{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 111%;
-}
-p, h3, h4, h5, h6, a{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
-
 }

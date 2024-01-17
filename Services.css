@@ -2,10 +2,12 @@ body {
   margin: 0px;
   top: 0px;
   max-width: 100%;
+  background-color: #c9c9c9;
 }
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 150%;
+  color: #8fffe3;
 }
 h2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,15 +50,18 @@ section {
 }
 
 /* Text below the title */
-h2+p {
+h2,p {
   margin-top: 10px;
 }
 
 .exemple {
-  background-color: #b16565;
+  background-color: #2b5063;
   padding: 2rem;
   text-align: center;
   padding-right: 5%;
+  max-width: 100%;
+  height: 500px;
+  
 }
 
 .exemple_img {
@@ -78,6 +83,16 @@ h2+p {
   gap: 5%;
   padding-left: 5%;
 }
+.exemple h1,h3,h4{
+  color: #8fffe3;
+}
+.exemple h2{
+  color: #2b5063;
+}
+.exemple p{
+color:#c9c9c9;;
+}
+
 
 .ul_img {
   height: 10%;
@@ -90,6 +105,13 @@ h2+p {
   justify-content: center;
   align-items: center;
   height: 50vh;
+}
+.center-section a{
+  background-color: #2b5063;
+  color: #8fffe3;
+}
+.center-section h2{
+  color: #2b5063;
 }
 
 .center-section-2 {
@@ -112,7 +134,7 @@ h2+p {
 }
 
 .btn:hover {
-  background-color: #555;
+  background-color: #193746;
 }
 
 /* Media Queries for responsiveness */
