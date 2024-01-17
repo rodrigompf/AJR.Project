@@ -70,11 +70,73 @@ p, h3, h4, h5, h6, a{
 }
 
 @media only screen and (max-width: 768px) {
-  .gallery-item {
-    flex: 1 0 100%;
-  }
+  body {
+  margin: 0px;
+  top: 0px;
+  max-width: 100%;
+  background-color: #c9c9c9;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;
+  color: #2b5063;
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 125%;
+  color: #2b5063;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 111%;
+  color: #2b5063;
+}
+p, h3, h4, h5, h6, a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
 
-  .image-text {
-    padding: 0;
-  }
+}
+
+.section1 {
+  background-image: url(./Imagens/contact\ us\ main.png);
+  width: 100%;
+  height: 80vh;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  transition: background-color 0.3s ease-in;
+  margin-top: -100px;
+}
+
+.section1 h1 {
+  font-size: 300%;
+  padding-left: 23%;
+}
+
+
+
+
+
+
+
+
+
+
+.section2div1 {
+  padding-left: 9%;
+  background-color: white;
+  padding-top: 5%;
+  background-color: #c9c9c9;
+}
+
+.section2ul {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 0.18fr);
+  gap: 5px;
+  padding-left: 9%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  list-style: none;
+}
 }

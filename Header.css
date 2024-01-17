@@ -46,11 +46,12 @@ header h2 {
         width: 100%;
         display: inline-flex;
         background-color: rgba(0, 0, 0, 0.651);
-        height: 12vh;
+        height: 15vh;
         background-image: url(./Imagens/logo\ projeto\ final.png);
         background-repeat: no-repeat;
-        background-position: 16% 50%;
+        background-position: 1% 50%;
         color: #8fffe3;
+        background-size: 75px 40px ;
     }
     
     header ul li {
@@ -58,8 +59,6 @@ header h2 {
         position: relative;
         border: none;
         cursor: pointer;
-        padding: 1vh;
-        margin: 2vh;
         transition: background-color 0.3s ease-in;
         border-radius: 2vh;
     }
@@ -72,10 +71,12 @@ header h2 {
     header a {
         text-decoration: none;
         color: inherit;
+        font-size: 80%;
     }
     
     header h2 {
         padding-left: 25%;
         color: #8fffe3;
+        font-size: 80%;
     }
   }
