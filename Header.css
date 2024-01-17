@@ -17,10 +17,10 @@ header ul li {
     position: relative;
     border: none;
     cursor: pointer;
-    padding: 5px;
-    margin: 10px;
+    padding: 1vh;
+    margin: 2vh;
     transition: background-color 0.3s ease-in;
-    border-radius: 10px;
+    border-radius: 2vh;
 }
 
 header ul li:hover {
@@ -40,7 +40,42 @@ header h2 {
 
 @media only screen and (max-width: 768px) {
     header {
-        flex: 1 0 100%;
-        padding: 0;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        width: 100%;
+        display: inline-flex;
+        background-color: rgba(0, 0, 0, 0.651);
+        height: 12vh;
+        background-image: url(./Imagens/logo\ projeto\ final.png);
+        background-repeat: no-repeat;
+        background-position: 16% 50%;
+        color: #8fffe3;
     }
-}
+    
+    header ul li {
+        display: inline;
+        position: relative;
+        border: none;
+        cursor: pointer;
+        padding: 1vh;
+        margin: 2vh;
+        transition: background-color 0.3s ease-in;
+        border-radius: 2vh;
+    }
+    
+    header ul li:hover {
+        background-color: #2b5063;
+        transition: background-color 0.3s ease-in;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    header h2 {
+        padding-left: 25%;
+        color: #8fffe3;
+    }
+  }
