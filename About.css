@@ -146,11 +146,149 @@ body {
   }
 
 @media only screen and (max-width: 768px) {
-    .gallery-item {
-        flex: 1 0 100%;
-    }
+  body {
+    margin: 0px;
+    top: 0px;
+    max-width: 100%;
+  }
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+  }
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125%;
+  }
+  h3,h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 111%;
+  }
+  p, h5, h6, a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+  
+  }
 
-    .image-text {
-        padding: 0;
-    }
+  .section3 a{
+    color: inherit;
+    text-decoration: none;
+  }
+ 
+.section1 {
+    background-image: url(./Imagens/about\ us\ main.jpg);
+    width: 100%;
+    height: 40vh;
+    padding-top: 30%;
+    font-size: 150%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: background-color 0.3s ease-in;
+    margin-top: -100px;
+}
+
+.section1 h1 {
+    color: black;
+    padding-top: 3.5%;
+    padding-left: 10%;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.exemple {
+    background-color: #2b5063;
+    padding: 2rem;
+    text-align: center;
+    padding-right: 5%;
+  }
+  .exemple_text{
+    padding-right: 10%;
+  }
+  .exemple_img {
+    height: 30%;
+    width: 30%;
+    margin-left: 5%;
+    border: 3px solid #8fffe3;
+    padding: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .exemple h1,h2 {
+    color: #8fffe3;
+  }
+  
+  .exemple p, h5, h6, a{
+    color: rgb(223, 208, 208)
+  }
+  .exemple ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+  }
+
+.section3 {
+    align-items: left;
+    background-color: #c9c9c9;
+    height: 60vh;
+    padding-left: 7%;
+    max-width: 100%;
+}
+
+.section3 ul {
+    padding: 0;
+    gap: 10px;
+    list-style: none;
+}
+.section3 h1,h2,h4{
+  color: #2b5063;
+}
+.section3 img{
+  height: 40%;
+  width: 70%;
+}
+.business {
+    background-color: #2b5063;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 100%;
+  }
+  .business h1,h2 {
+    color: #8fffe3;
+  }
+  
+  .business p, h3, h5, h6, a{
+    color: rgb(223, 208, 208)
+  }
+  .image-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    max-width: 80%;
+  }
+  
+  .image-list li {
+    flex: 0.9;
+    margin: 1%;
+  }
+  
+  .image-list img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .text_businees {
+    text-align: center;
+  
+  }
 }
